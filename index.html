@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO App</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="./icons/task 1.svg" alt="Icon">
+            <h1>TODO App</h1>
+        </header>
+        <main class="main">
+            <div class="new-task">
+                <h3>Add new task</h3>
+                <input class="input-taskTitle" type="text" id="task-title" placeholder="Task title">
+                <textarea class="input-taskDesc" id="task-desc" placeholder="Description"></textarea>
+                <button class="add-task" id="add-task">Add+</button>
+            </div>
+            <div class="tasks-section">
+                <h3>Tasks</h3>
+                <div class="tasks" id="tasks-list">
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="author-title">The developer is Maksut Ismailov.</div>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
